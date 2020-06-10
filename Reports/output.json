@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-06T03:21:00.416Z",
+        "line": 17,
+        "name": "Validating the functionalities of adactin webpage",
+        "description": "",
+        "id": "adactin-webpage-automation;validating-the-functionalities-of-adactin-webpage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30045054900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8323345300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"sureshgreens\" and \"suresh1988\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sureshgreens\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"suresh1988\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11774300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to SelectHotel page",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_SelectHotel_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6518818600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"Sydney\",\"Hotel Creek\",\"Deluxe\",\"1 - One\",\"10/03/2020\",\"11/03/2020\",\"1 - One\",\"1 - One\" and clicks search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"10/03/2020\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"11/03/2020\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 89
+                }
+              ],
+              "location": "StepDefinition.user_enter_and_clicks_search_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9615100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to Searchhotel page",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_Searchhotel_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3478769800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User select option and click continue button",
+            "match": {
+              "location": "StepDefinition.user_select_option_and_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7679800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to BookHotel page",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_BookHotel_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2560119200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User \"Suresh\",\"Kumar\",\"bfgawgfbewafawefhgbbhgwefkbka\",\"1234567891234123\",\"VISA\",\"January\",\"2021\",\"1234\" and clicks BookNow button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suresh\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"bfgawgfbewafawefhgbbhgwefkbka\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"1234567891234123\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 97
+                }
+              ],
+              "location": "StepDefinition.user_and_clicks_BookNow_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6734246700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates to BookingConfirmation page and print the order id",
+            "match": {
+              "location": "StepDefinition.user_navigates_to_BookingConfirmation_page_and_print_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Webpage Automation",
+    "description": "",
+    "id": "adactin-webpage-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Adactin.feature",
+    "tags": []
+  }
+]
